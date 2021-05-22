@@ -1,5 +1,11 @@
 import fs from "fs";
 import { exec } from "child_process";
+
+/**
+ * Util method to run and execute code.
+ * @param {*} codeString
+ * @param {*} res
+ */
 export const compileAndRunCode = (codeString, res) => {
   fs.writeFile("Solution.java", codeString, function (err) {
     if (err) throw err;
