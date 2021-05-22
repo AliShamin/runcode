@@ -1,0 +1,17 @@
+{
+  "name": "runcode",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "node project to run the java code via rest api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "author": "Shamin Ali",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
