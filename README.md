@@ -1,3 +1,3 @@
 # runcode
 
-Code run time environmnet for Java, Python, C++ and Javascript
+Code run time platform for Java, Python, C++ and Javascript
